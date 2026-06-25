@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 try:
-    with open("crop_recommendation_model", "rb") as file:
+    with open("crop_recommendation_model.pkl", "rb") as file:
         model = pickle.load(file)
 except Exception as e:
     st.error("Model loading failed. Check your pickle file and requirements.txt versions.")
