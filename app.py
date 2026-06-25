@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 
-with open("your_model.pkl", "rb") as file:
+with open("crop_recommendation_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Crop Recommendation App")
