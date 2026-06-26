@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import os
-import sklearn
+
 
 st.write("Current directory:", os.getcwd())
 st.write("Files:", os.listdir())
